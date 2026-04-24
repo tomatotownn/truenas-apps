@@ -1,0 +1,34 @@
+app_version: 2.9.0
+capabilities: []
+categories:
+- monitoring
+changelog_url: https://github.com/linuxserver/docker-smokeping/releases
+date_added: 'todo...'
+description: Smokeping is a latency logging and graphing and alerting system.
+home: https://docs.linuxserver.io/images/docker-smokeping/
+host_mounts: []
+icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/smokeping.webp
+keywords:
+- ping
+- latency
+- monitoring
+- graphing
+lib_version: 2.3.3
+lib_version_hash: ""
+maintainers:
+- email: dev@truenas.com
+  name: truenas
+  url: https://www.truenas.com/
+name: smokeping
+run_as_context:
+- description: Container [smokeping] runs as any non-root user.
+  gid: 568
+  group_name: smokeping
+  uid: 568
+  user_name: smokeping
+screenshots: []
+sources:
+- https://github.com/linuxserver/docker-smokeping
+title: Smokeping
+train: community
+version: 1.0.0

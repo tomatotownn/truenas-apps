@@ -1,0 +1,7 @@
+images:
+  image:
+    repository: ghcr.io/linuxserver/smokeping
+    tag: 2.9.0
+
+consts:
+  smokeping_container_name: smokeping
