@@ -1,15 +1,15 @@
 {
-    "1.0.3": {
+    "1.0.31": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/apps/apps/trains/community/teslamate/1.0.3",
-        "last_update": "2026-04-23 11:25:20",
+        "location": "/__w/apps/apps/trains/community/teslamate/1.0.31",
+        "last_update": "2026-10-06 15:39:27",
         "required_features": [],
-        "human_version": "3.0.0_1.0.3",
-        "version": "1.0.3",
+        "human_version": "4.3.0_1.0.31",
+        "version": "1.0.31",
         "app_metadata": {
-            "app_version": "3.0.0",
+            "app_version": "4.3.0",
             "capabilities": [],
             "categories": [
                 "monitoring"
@@ -26,8 +26,8 @@
                 "logging",
                 "grafana"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -61,13 +61,14 @@
             ],
             "screenshots": [],
             "sources": [
+                "https://apps.truenas.com/catalog/teslamate_community/",
                 "https://github.com/teslamate-org/teslamate",
-                "https://hub.docker.com/r/teslamate/teslamate",
-                "https://github.com/tobiasehlert/teslamateapi"
+                "https://github.com/tobiasehlert/teslamateapi",
+                "https://hub.docker.com/r/teslamate/teslamate"
             ],
             "title": "TeslaMate",
             "train": "community",
-            "version": "1.0.3"
+            "version": "1.0.31"
         },
         "schema": {
             "groups": [
@@ -136,7 +137,6 @@
                             {
                                 "variable": "db_password",
                                 "label": "Database Password",
-                                "description": "The password for the TeslaMate database.",
                                 "schema": {
                                     "type": "string",
                                     "default": "",
@@ -1338,7 +1338,7 @@
         "readme": "<h1>TeslaMate</h1> <p><a href=\"https://docs.teslamate.org/\">TeslaMate</a> is a self-hosted data logger for your Tesla.</p> <p>For Grafana dashboard setup and advanced configuration see the <a href=\"https://docs.teslamate.org/\">official documentation</a>.</p>",
         "changelog": null,
         "chart_metadata": {
-            "app_version": "3.0.0",
+            "app_version": "4.3.0",
             "capabilities": [],
             "categories": [
                 "monitoring"
@@ -1355,8 +1355,8 @@
                 "logging",
                 "grafana"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -1390,13 +1390,14 @@
             ],
             "screenshots": [],
             "sources": [
+                "https://apps.truenas.com/catalog/teslamate_community/",
                 "https://github.com/teslamate-org/teslamate",
-                "https://hub.docker.com/r/teslamate/teslamate",
-                "https://github.com/tobiasehlert/teslamateapi"
+                "https://github.com/tobiasehlert/teslamateapi",
+                "https://hub.docker.com/r/teslamate/teslamate"
             ],
             "title": "TeslaMate",
             "train": "community",
-            "version": "1.0.3"
+            "version": "1.0.31"
         }
     }
 }

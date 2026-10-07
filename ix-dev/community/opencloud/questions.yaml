@@ -140,10 +140,11 @@ questions:
                       description: Collabora Online
                     - value: "onlyoffice"
                       description: OnlyOffice
+                    - value: "eurooffice"
+                      description: Euro-Office
               - variable: url
                 label: URL
-                description: The URL of the collaboration application. (e.g.
-                  https://collabora.example.com)
+                description: The URL of the collaboration application. (e.g. https://collabora.example.com)
                 schema:
                   type: uri
                   default: ""
@@ -158,11 +159,12 @@ questions:
                   default: false
               - variable: jwt_secret
                 label: JWT Secret
-                description: The JWT secret for OnlyOffice authentication. It must match the
-                  secret configured in the OnlyOffice server.
+                description:
+                  The JWT secret for OnlyOffice/Euro-Office authentication. It must match the
+                  secret configured in the OnlyOffice/Euro-Office server.
                 schema:
                   type: string
-                  show_if: [["enabled", "=", true], ["type", "=", "onlyoffice"]]
+                  show_if: [["enabled", "=", true], ["type", "!=", "collabora"]]
                   default: ""
                   private: true
                   required: true
@@ -651,7 +653,8 @@ questions:
                                           "null": true
                                       - variable: priority
                                         label: Priority (Optional)
-                                        description: Indicates in which order Compose connects the service's containers
+                                        description:
+                                          Indicates in which order Compose connects the service's containers
                                           to its networks.
                                         schema:
                                           type: int

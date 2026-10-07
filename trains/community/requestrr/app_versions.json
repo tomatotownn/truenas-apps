@@ -1,15 +1,15 @@
 {
-    "1.1.4": {
+    "1.1.8": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/apps/apps/trains/community/requestrr/1.1.4",
-        "last_update": "2026-04-23 11:25:20",
+        "location": "/__w/apps/apps/trains/community/requestrr/1.1.8",
+        "last_update": "2026-09-29 07:23:10",
         "required_features": [],
-        "human_version": "v2.1.9_1.1.4",
-        "version": "1.1.4",
+        "human_version": "v2.1.10_1.1.8",
+        "version": "1.1.8",
         "app_metadata": {
-            "app_version": "v2.1.9",
+            "app_version": "v2.1.10",
             "capabilities": [],
             "categories": [
                 "media"
@@ -23,8 +23,8 @@
             "keywords": [
                 "media"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -44,12 +44,13 @@
             ],
             "screenshots": [],
             "sources": [
+                "https://apps.truenas.com/catalog/requestrr_community/",
                 "https://github.com/thomst08/requestrr",
                 "https://hub.docker.com/r/thomst08/requestrr"
             ],
             "title": "Requestrr",
             "train": "community",
-            "version": "1.1.4"
+            "version": "1.1.8"
         },
         "schema": {
             "groups": [
@@ -942,7 +943,7 @@
         "readme": "<h1>Requestrr</h1> <p><a href=\"https://github.com/thomst08/requestrr\">Requestrr</a> is a Discord chatbot used to connect users to Sonarr/Radarr/Lidarr/Overseerr/Ombi!</p>",
         "changelog": null,
         "chart_metadata": {
-            "app_version": "v2.1.9",
+            "app_version": "v2.1.10",
             "capabilities": [],
             "categories": [
                 "media"
@@ -956,8 +957,8 @@
             "keywords": [
                 "media"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -977,12 +978,13 @@
             ],
             "screenshots": [],
             "sources": [
+                "https://apps.truenas.com/catalog/requestrr_community/",
                 "https://github.com/thomst08/requestrr",
                 "https://hub.docker.com/r/thomst08/requestrr"
             ],
             "title": "Requestrr",
             "train": "community",
-            "version": "1.1.4"
+            "version": "1.1.8"
         }
     }
 }

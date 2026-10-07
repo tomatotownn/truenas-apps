@@ -1,18 +1,18 @@
 {
-    "1.4.6": {
+    "1.4.18": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/apps/apps/trains/community/radarr/1.4.6",
-        "last_update": "2026-04-23 11:25:20",
+        "location": "/__w/apps/apps/trains/community/radarr/1.4.18",
+        "last_update": "2026-09-29 07:23:10",
         "required_features": [],
-        "human_version": "6.2.0.10390_1.4.6",
-        "version": "1.4.6",
+        "human_version": "6.4.4.10685_1.4.18",
+        "version": "1.4.18",
         "app_metadata": {
             "annotations": {
                 "min_scale_version": "24.10.2.2"
             },
-            "app_version": "6.2.0.10390",
+            "app_version": "6.4.4.10685",
             "capabilities": [],
             "categories": [
                 "media"
@@ -27,8 +27,8 @@
                 "media",
                 "movies"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -53,12 +53,13 @@
                 "https://media.sys.truenas.net/apps/radarr/screenshots/screenshot4.png"
             ],
             "sources": [
-                "https://github.com/home-operations/containers/tree/main/apps/radarr",
-                "https://github.com/Radarr/Radarr"
+                "https://apps.truenas.com/catalog/radarr_community/",
+                "https://github.com/Radarr/Radarr",
+                "https://github.com/home-operations/containers/tree/main/apps/radarr"
             ],
             "title": "Radarr",
             "train": "community",
-            "version": "1.4.6"
+            "version": "1.4.18"
         },
         "schema": {
             "groups": [
@@ -964,7 +965,7 @@
             "annotations": {
                 "min_scale_version": "24.10.2.2"
             },
-            "app_version": "6.2.0.10390",
+            "app_version": "6.4.4.10685",
             "capabilities": [],
             "categories": [
                 "media"
@@ -979,8 +980,8 @@
                 "media",
                 "movies"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -1005,12 +1006,13 @@
                 "https://media.sys.truenas.net/apps/radarr/screenshots/screenshot4.png"
             ],
             "sources": [
-                "https://github.com/home-operations/containers/tree/main/apps/radarr",
-                "https://github.com/Radarr/Radarr"
+                "https://apps.truenas.com/catalog/radarr_community/",
+                "https://github.com/Radarr/Radarr",
+                "https://github.com/home-operations/containers/tree/main/apps/radarr"
             ],
             "title": "Radarr",
             "train": "community",
-            "version": "1.4.6"
+            "version": "1.4.18"
         }
     }
 }

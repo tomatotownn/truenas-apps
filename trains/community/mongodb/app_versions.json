@@ -1,15 +1,15 @@
 {
-    "1.1.6": {
+    "1.1.18": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/apps/apps/trains/community/mongodb/1.1.6",
-        "last_update": "2026-04-23 11:25:20",
+        "location": "/__w/apps/apps/trains/community/mongodb/1.1.18",
+        "last_update": "2026-10-01 16:44:29",
         "required_features": [],
-        "human_version": "8.2.7_1.1.6",
-        "version": "1.1.6",
+        "human_version": "9.0.2_1.1.18",
+        "version": "1.1.18",
         "app_metadata": {
-            "app_version": "8.2.7",
+            "app_version": "9.0.2",
             "capabilities": [],
             "categories": [
                 "database"
@@ -23,8 +23,8 @@
             "keywords": [
                 "database"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -44,11 +44,12 @@
             ],
             "screenshots": [],
             "sources": [
+                "https://apps.truenas.com/catalog/mongodb_community/",
                 "https://hub.docker.com/_/mongo"
             ],
             "title": "MongoDB",
             "train": "community",
-            "version": "1.1.6"
+            "version": "1.1.18"
         },
         "schema": {
             "groups": [
@@ -88,14 +89,18 @@
                             {
                                 "variable": "image_selector",
                                 "label": "Image Selector",
-                                "description": "The image to use for MongoDB.</br>\nSelecting an image with pgvector will use a pgvector image (not the official MongoDB).\n",
+                                "description": "The image to use for MongoDB.",
                                 "schema": {
                                     "type": "string",
-                                    "default": "image",
+                                    "default": "v9_image",
                                     "required": true,
                                     "enum": [
                                         {
-                                            "value": "image",
+                                            "value": "v9_image",
+                                            "description": "MongoDB 9 Image"
+                                        },
+                                        {
+                                            "value": "v8_image",
                                             "description": "MongoDB 8 Image"
                                         },
                                         {
@@ -994,7 +999,7 @@
         "readme": "<h1>MongoDB</h1> <p><a href=\"https://www.mongodb.com/\">MongoDB</a> is a document database designed for ease of application development and scaling.</p>",
         "changelog": null,
         "chart_metadata": {
-            "app_version": "8.2.7",
+            "app_version": "9.0.2",
             "capabilities": [],
             "categories": [
                 "database"
@@ -1008,8 +1013,8 @@
             "keywords": [
                 "database"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -1029,11 +1034,12 @@
             ],
             "screenshots": [],
             "sources": [
+                "https://apps.truenas.com/catalog/mongodb_community/",
                 "https://hub.docker.com/_/mongo"
             ],
             "title": "MongoDB",
             "train": "community",
-            "version": "1.1.6"
+            "version": "1.1.18"
         }
     }
 }

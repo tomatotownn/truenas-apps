@@ -1,4 +1,4 @@
-app_version: v3.13.0
+app_version: v3.18.1
 capabilities: []
 categories:
 - productivity
@@ -13,8 +13,8 @@ icon: https://media.sys.truenas.net/apps/woodpecker-ci/icons/icon.svg
 keywords:
 - automation
 - ci
-lib_version: 2.3.3
-lib_version_hash: afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e
+lib_version: 2.3.13
+lib_version_hash: 644cb2c53051941e9128fbd4d666094573af5c57a62c037bc56820d25427e454
 maintainers:
 - email: dev@truenas.com
   name: truenas
@@ -38,10 +38,11 @@ run_as_context:
   user_name: Host user is [apps]
 screenshots: []
 sources:
-- https://woodpecker-ci.org
+- https://apps.truenas.com/catalog/woodpecker-ci_community/
 - https://github.com/woodpecker-ci/woodpecker
-- https://hub.docker.com/r/woodpeckerci/woodpecker-server
 - https://hub.docker.com/r/woodpeckerci/woodpecker-agent
+- https://hub.docker.com/r/woodpeckerci/woodpecker-server
+- https://woodpecker-ci.org
 title: Woodpecker CI
 train: community
-version: 1.2.12
+version: 1.2.41

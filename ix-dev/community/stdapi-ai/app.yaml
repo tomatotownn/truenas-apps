@@ -1,12 +1,12 @@
-app_version: 1.10.0
+app_version: 1.19.1
 capabilities: []
 categories:
 - ai
 changelog_url: https://stdapi.ai/roadmap/#release-history
 date_added: '2026-03-24'
-description: OpenAI and Anthropic compatible API gateway for AWS Bedrock. Access 80+
-  models including Claude, Nova, Deepseek, Mistral, and Minimax with enterprise compliance
-  and pay-per-use pricing.
+description: 'OpenAI and Anthropic compatible API gateway for Amazon Bedrock, in your
+  own AWS account. Not just chat: images, speech, embeddings, rerank and batch. Also
+  fronts Amazon Polly, Transcribe and Comprehend.'
 home: https://stdapi.ai
 host_mounts: []
 icon: https://media.sys.truenas.net/apps/stdapi-ai/icons/icon.svg
@@ -18,8 +18,8 @@ keywords:
 - bedrock
 - openai
 - anthropic
-lib_version: 2.3.3
-lib_version_hash: afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e
+lib_version: 2.3.4
+lib_version_hash: 2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242
 maintainers:
 - email: dev@truenas.com
   name: truenas
@@ -33,7 +33,8 @@ run_as_context:
   user_name: Host user is [unknown (65532)]
 screenshots: []
 sources:
+- https://apps.truenas.com/catalog/stdapi-ai_community/
 - https://github.com/stdapi-ai/stdapi.ai
 title: stdapi.ai
 train: community
-version: 1.0.7
+version: 1.0.24

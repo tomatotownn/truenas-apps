@@ -1,15 +1,15 @@
 {
-    "1.0.62": {
+    "1.0.97": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/apps/apps/trains/community/arcane/1.0.62",
-        "last_update": "2026-04-23 13:02:35",
+        "location": "/__w/apps/apps/trains/community/arcane/1.0.97",
+        "last_update": "2026-10-06 15:39:27",
         "required_features": [],
-        "human_version": "v1.18.0_1.0.62",
-        "version": "1.0.62",
+        "human_version": "v2.15.0_1.0.97",
+        "version": "1.0.97",
         "app_metadata": {
-            "app_version": "v1.18.0",
+            "app_version": "v2.15.0",
             "capabilities": [],
             "categories": [
                 "management"
@@ -29,8 +29,8 @@
                 "docker",
                 "compose"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.13",
+            "lib_version_hash": "644cb2c53051941e9128fbd4d666094573af5c57a62c037bc56820d25427e454",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -52,11 +52,12 @@
                 "https://media.sys.truenas.net/apps/arcane/screenshots/screenshot1.png"
             ],
             "sources": [
+                "https://apps.truenas.com/catalog/arcane_community/",
                 "https://github.com/getarcaneapp/arcane"
             ],
             "title": "Arcane",
             "train": "community",
-            "version": "1.0.62"
+            "version": "1.0.97"
         },
         "schema": {
             "groups": [
@@ -967,7 +968,7 @@
         "readme": "<h1>Arcane</h1> <p><a href=\"https://arcane.ofkm.dev\">Arcane</a> is a modern Docker Management, Designed for Everyone</p>",
         "changelog": null,
         "chart_metadata": {
-            "app_version": "v1.18.0",
+            "app_version": "v2.15.0",
             "capabilities": [],
             "categories": [
                 "management"
@@ -987,8 +988,8 @@
                 "docker",
                 "compose"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.13",
+            "lib_version_hash": "644cb2c53051941e9128fbd4d666094573af5c57a62c037bc56820d25427e454",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -1010,11 +1011,12 @@
                 "https://media.sys.truenas.net/apps/arcane/screenshots/screenshot1.png"
             ],
             "sources": [
+                "https://apps.truenas.com/catalog/arcane_community/",
                 "https://github.com/getarcaneapp/arcane"
             ],
             "title": "Arcane",
             "train": "community",
-            "version": "1.0.62"
+            "version": "1.0.97"
         }
     }
 }

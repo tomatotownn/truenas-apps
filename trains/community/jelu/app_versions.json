@@ -1,15 +1,15 @@
 {
-    "1.1.8": {
+    "1.1.21": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/apps/apps/trains/community/jelu/1.1.8",
-        "last_update": "2026-04-23 11:25:20",
+        "location": "/__w/apps/apps/trains/community/jelu/1.1.21",
+        "last_update": "2026-10-06 15:39:27",
         "required_features": [],
-        "human_version": "0.82.0_1.1.8",
-        "version": "1.1.8",
+        "human_version": "0.88.1_1.1.21",
+        "version": "1.1.21",
         "app_metadata": {
-            "app_version": "0.82.0",
+            "app_version": "0.88.1",
             "capabilities": [],
             "categories": [
                 "media"
@@ -24,8 +24,8 @@
                 "media",
                 "book"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -48,12 +48,13 @@
                 "https://media.sys.truenas.net/apps/jelu/screenshots/screenshot2.png"
             ],
             "sources": [
+                "https://apps.truenas.com/catalog/jelu_community/",
                 "https://github.com/bayang/jelu",
                 "https://hub.docker.com/repository/docker/wabayang/jelu"
             ],
             "title": "Jelu",
             "train": "community",
-            "version": "1.1.8"
+            "version": "1.1.21"
         },
         "schema": {
             "groups": [
@@ -1323,7 +1324,7 @@
         "readme": "<h1>Jelu</h1> <p><a href=\"https://github.com/bayang/jelu\">Jelu</a> is a self hosted read and to-read list book tracker.</p>",
         "changelog": null,
         "chart_metadata": {
-            "app_version": "0.82.0",
+            "app_version": "0.88.1",
             "capabilities": [],
             "categories": [
                 "media"
@@ -1338,8 +1339,8 @@
                 "media",
                 "book"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -1362,12 +1363,13 @@
                 "https://media.sys.truenas.net/apps/jelu/screenshots/screenshot2.png"
             ],
             "sources": [
+                "https://apps.truenas.com/catalog/jelu_community/",
                 "https://github.com/bayang/jelu",
                 "https://hub.docker.com/repository/docker/wabayang/jelu"
             ],
             "title": "Jelu",
             "train": "community",
-            "version": "1.1.8"
+            "version": "1.1.21"
         }
     }
 }

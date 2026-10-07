@@ -1,15 +1,15 @@
 {
-    "1.1.9": {
+    "1.1.22": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/apps/apps/trains/community/pocket-id/1.1.9",
-        "last_update": "2026-04-23 11:25:20",
+        "location": "/__w/apps/apps/trains/community/pocket-id/1.1.22",
+        "last_update": "2026-10-06 15:39:27",
         "required_features": [],
-        "human_version": "v2.6.2_1.1.9",
-        "version": "1.1.9",
+        "human_version": "v2.18.0_1.1.22",
+        "version": "1.1.22",
         "app_metadata": {
-            "app_version": "v2.6.2",
+            "app_version": "v2.18.0",
             "capabilities": [],
             "categories": [
                 "authentication"
@@ -26,8 +26,8 @@
                 "passkeys",
                 "openid"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -53,11 +53,12 @@
                 "https://media.sys.truenas.net/apps/pocket-id/screenshots/screenshot5.png"
             ],
             "sources": [
+                "https://apps.truenas.com/catalog/pocket-id_community/",
                 "https://github.com/pocket-id/pocket-id"
             ],
             "title": "Pocket ID",
             "train": "community",
-            "version": "1.1.9"
+            "version": "1.1.22"
         },
         "schema": {
             "groups": [
@@ -979,7 +980,7 @@
         "readme": "<h1>Pocket ID</h1> <p><a href=\"https://pocket-id.org\">Pocket ID</a> is a simple and easy-to-use OIDC provider that allows users to authenticate with their passkeys to your services.</p>",
         "changelog": null,
         "chart_metadata": {
-            "app_version": "v2.6.2",
+            "app_version": "v2.18.0",
             "capabilities": [],
             "categories": [
                 "authentication"
@@ -996,8 +997,8 @@
                 "passkeys",
                 "openid"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -1023,11 +1024,12 @@
                 "https://media.sys.truenas.net/apps/pocket-id/screenshots/screenshot5.png"
             ],
             "sources": [
+                "https://apps.truenas.com/catalog/pocket-id_community/",
                 "https://github.com/pocket-id/pocket-id"
             ],
             "title": "Pocket ID",
             "train": "community",
-            "version": "1.1.9"
+            "version": "1.1.22"
         }
     }
 }

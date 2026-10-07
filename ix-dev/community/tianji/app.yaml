@@ -1,4 +1,4 @@
-app_version: 1.31.22
+app_version: 1.33.7
 capabilities: []
 categories:
 - monitoring
@@ -14,8 +14,8 @@ keywords:
 - monitoring
 - uptime
 - status
-lib_version: 2.3.3
-lib_version_hash: afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e
+lib_version: 2.3.4
+lib_version_hash: 2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242
 maintainers:
 - email: dev@truenas.com
   name: truenas
@@ -40,7 +40,8 @@ screenshots:
 - https://media.sys.truenas.net/apps/tianji/screenshots/screenshot5.png
 - https://media.sys.truenas.net/apps/tianji/screenshots/screenshot6.png
 sources:
+- https://apps.truenas.com/catalog/tianji_community/
 - https://github.com/msgbyte/tianji
 title: Tianji
 train: community
-version: 1.2.21
+version: 1.2.72

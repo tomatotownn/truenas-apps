@@ -1,18 +1,18 @@
 {
-    "1.7.10": {
+    "1.7.38": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/apps/apps/trains/community/invidious/1.7.10",
-        "last_update": "2026-04-23 11:25:20",
+        "location": "/__w/apps/apps/trains/community/invidious/1.7.38",
+        "last_update": "2026-10-06 15:39:27",
         "required_features": [],
-        "human_version": "2.20260207.0_1.7.10",
-        "version": "1.7.10",
+        "human_version": "2.20260804.1_1.7.38",
+        "version": "1.7.38",
         "app_metadata": {
             "annotations": {
                 "min_scale_version": "24.10.2.2"
             },
-            "app_version": "2.20260207.0",
+            "app_version": "2.20260804.1",
             "capabilities": [],
             "categories": [
                 "media"
@@ -26,8 +26,8 @@
             "keywords": [
                 "youtube"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -68,12 +68,13 @@
                 "https://media.sys.truenas.net/apps/invidious/screenshots/screenshot6.png"
             ],
             "sources": [
+                "https://apps.truenas.com/catalog/invidious_community/",
                 "https://invidious.io/",
                 "https://quay.io/repository/invidious"
             ],
             "title": "Invidious",
             "train": "community",
-            "version": "1.7.10"
+            "version": "1.7.38"
         },
         "schema": {
             "groups": [
@@ -129,7 +130,6 @@
                             {
                                 "variable": "db_password",
                                 "label": "Database Password",
-                                "description": "The password for Invidious.",
                                 "schema": {
                                     "type": "string",
                                     "default": "",
@@ -1325,7 +1325,7 @@
             "annotations": {
                 "min_scale_version": "24.10.2.2"
             },
-            "app_version": "2.20260207.0",
+            "app_version": "2.20260804.1",
             "capabilities": [],
             "categories": [
                 "media"
@@ -1339,8 +1339,8 @@
             "keywords": [
                 "youtube"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -1381,12 +1381,13 @@
                 "https://media.sys.truenas.net/apps/invidious/screenshots/screenshot6.png"
             ],
             "sources": [
+                "https://apps.truenas.com/catalog/invidious_community/",
                 "https://invidious.io/",
                 "https://quay.io/repository/invidious"
             ],
             "title": "Invidious",
             "train": "community",
-            "version": "1.7.10"
+            "version": "1.7.38"
         }
     }
 }

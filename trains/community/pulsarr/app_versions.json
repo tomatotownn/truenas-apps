@@ -1,15 +1,15 @@
 {
-    "1.0.10": {
+    "1.0.26": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/apps/apps/trains/community/pulsarr/1.0.10",
-        "last_update": "2026-04-23 11:25:20",
+        "location": "/__w/apps/apps/trains/community/pulsarr/1.0.26",
+        "last_update": "2026-09-30 19:52:21",
         "required_features": [],
-        "human_version": "0.15.3_1.0.10",
-        "version": "1.0.10",
+        "human_version": "0.19.4_1.0.26",
+        "version": "1.0.26",
         "app_metadata": {
-            "app_version": "0.15.3",
+            "app_version": "0.19.4",
             "capabilities": [],
             "categories": [
                 "media"
@@ -22,8 +22,8 @@
             "keywords": [
                 "media"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -43,12 +43,13 @@
             ],
             "screenshots": [],
             "sources": [
-                "https://hub.docker.com/r/lakker/pulsarr",
-                "https://github.com/jamcalli/Pulsarr"
+                "https://apps.truenas.com/catalog/pulsarr_community/",
+                "https://github.com/jamcalli/Pulsarr",
+                "https://hub.docker.com/r/lakker/pulsarr"
             ],
             "title": "Pulsarr",
             "train": "community",
-            "version": "1.0.10"
+            "version": "1.0.26"
         },
         "schema": {
             "groups": [
@@ -979,7 +980,7 @@
         "readme": "<h1>Pulsarr</h1> <p><a href=\"https://github.com/jamcalli/Pulsarr\">Pulsarr</a> - Real-time Plex watchlist monitoring and content acquisition tool. Seamlessly sync Plex watchlists with Sonarr and Radarr, featuring intelligent predicated content routing, multi-instance support, Discord, and Apprise notifications. Automate your media library management with a modern, user-friendly interface.</p>",
         "changelog": null,
         "chart_metadata": {
-            "app_version": "0.15.3",
+            "app_version": "0.19.4",
             "capabilities": [],
             "categories": [
                 "media"
@@ -992,8 +993,8 @@
             "keywords": [
                 "media"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -1013,12 +1014,13 @@
             ],
             "screenshots": [],
             "sources": [
-                "https://hub.docker.com/r/lakker/pulsarr",
-                "https://github.com/jamcalli/Pulsarr"
+                "https://apps.truenas.com/catalog/pulsarr_community/",
+                "https://github.com/jamcalli/Pulsarr",
+                "https://hub.docker.com/r/lakker/pulsarr"
             ],
             "title": "Pulsarr",
             "train": "community",
-            "version": "1.0.10"
+            "version": "1.0.26"
         }
     }
 }

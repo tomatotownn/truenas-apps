@@ -1,18 +1,18 @@
 {
-    "1.4.25": {
+    "1.4.61": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/apps/apps/trains/community/metube/1.4.25",
-        "last_update": "2026-04-23 11:25:20",
+        "location": "/__w/apps/apps/trains/community/metube/1.4.61",
+        "last_update": "2026-09-30 15:29:00",
         "required_features": [],
-        "human_version": "2026.04.21_1.4.25",
-        "version": "1.4.25",
+        "human_version": "2026.09.29_1.4.61",
+        "version": "1.4.61",
         "app_metadata": {
             "annotations": {
                 "min_scale_version": "24.10.2.2"
             },
-            "app_version": "2026.04.21",
+            "app_version": "2026.09.29",
             "capabilities": [],
             "categories": [
                 "media"
@@ -26,8 +26,8 @@
                 "youtube-dl",
                 "yt-dlp"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -49,11 +49,12 @@
                 "https://media.sys.truenas.net/apps/metube/screenshots/screenshot1.png"
             ],
             "sources": [
+                "https://apps.truenas.com/catalog/metube_community/",
                 "https://github.com/alexta69/metube"
             ],
             "title": "MeTube",
             "train": "community",
-            "version": "1.4.25"
+            "version": "1.4.61"
         },
         "schema": {
             "groups": [
@@ -993,7 +994,7 @@
             "annotations": {
                 "min_scale_version": "24.10.2.2"
             },
-            "app_version": "2026.04.21",
+            "app_version": "2026.09.29",
             "capabilities": [],
             "categories": [
                 "media"
@@ -1007,8 +1008,8 @@
                 "youtube-dl",
                 "yt-dlp"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -1030,11 +1031,12 @@
                 "https://media.sys.truenas.net/apps/metube/screenshots/screenshot1.png"
             ],
             "sources": [
+                "https://apps.truenas.com/catalog/metube_community/",
                 "https://github.com/alexta69/metube"
             ],
             "title": "MeTube",
             "train": "community",
-            "version": "1.4.25"
+            "version": "1.4.61"
         }
     }
 }

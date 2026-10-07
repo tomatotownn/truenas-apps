@@ -1,13 +1,13 @@
 {
-    "1.1.7": {
+    "1.1.12": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/apps/apps/trains/community/i2p/1.1.7",
-        "last_update": "2026-04-23 11:25:20",
+        "location": "/__w/apps/apps/trains/community/i2p/1.1.12",
+        "last_update": "2026-09-29 07:23:10",
         "required_features": [],
-        "human_version": "i2p-2.11.0-9_1.1.7",
-        "version": "1.1.7",
+        "human_version": "i2p-2.11.0-9_1.1.12",
+        "version": "1.1.12",
         "app_metadata": {
             "app_version": "i2p-2.11.0-9",
             "capabilities": [],
@@ -24,8 +24,8 @@
                 "i2p",
                 "privacy"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -45,12 +45,13 @@
             ],
             "screenshots": [],
             "sources": [
-                "https://i2p.net",
-                "https://github.com/i2p/i2p.i2p"
+                "https://apps.truenas.com/catalog/i2p_community/",
+                "https://github.com/i2p/i2p.i2p",
+                "https://i2p.net"
             ],
             "title": "I2P",
             "train": "community",
-            "version": "1.1.7"
+            "version": "1.1.12"
         },
         "schema": {
             "groups": [
@@ -1128,8 +1129,8 @@
                 "i2p",
                 "privacy"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -1149,12 +1150,13 @@
             ],
             "screenshots": [],
             "sources": [
-                "https://i2p.net",
-                "https://github.com/i2p/i2p.i2p"
+                "https://apps.truenas.com/catalog/i2p_community/",
+                "https://github.com/i2p/i2p.i2p",
+                "https://i2p.net"
             ],
             "title": "I2P",
             "train": "community",
-            "version": "1.1.7"
+            "version": "1.1.12"
         }
     }
 }

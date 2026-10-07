@@ -1,15 +1,15 @@
 {
-    "1.1.6": {
+    "1.1.16": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/apps/apps/trains/community/bitcoind/1.1.6",
-        "last_update": "2026-04-23 11:25:20",
+        "location": "/__w/apps/apps/trains/community/bitcoind/1.1.16",
+        "last_update": "2026-10-02 13:52:49",
         "required_features": [],
-        "human_version": "31.0_1.1.6",
-        "version": "1.1.6",
+        "human_version": "31.1_1.1.16",
+        "version": "1.1.16",
         "app_metadata": {
-            "app_version": "31.0",
+            "app_version": "31.1",
             "capabilities": [],
             "categories": [
                 "financial"
@@ -24,8 +24,8 @@
                 "cryptocurrency",
                 "blockchain"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -45,12 +45,13 @@
             ],
             "screenshots": [],
             "sources": [
+                "https://apps.truenas.com/catalog/bitcoind_community/",
                 "https://bitcoin.org",
                 "https://github.com/sethforprivacy/docker-bitcoind"
             ],
             "title": "Bitcoin Node",
             "train": "community",
-            "version": "1.1.6"
+            "version": "1.1.16"
         },
         "schema": {
             "groups": [
@@ -242,6 +243,27 @@
                                     "type": "int",
                                     "min": 1,
                                     "max": 65535
+                                }
+                            },
+                            {
+                                "variable": "private_broadcast_enabled",
+                                "label": "Private Broadcast",
+                                "description": "When enabled, your locally submitted transactions will only be broadcast via Tor and I2P.\n",
+                                "schema": {
+                                    "type": "boolean",
+                                    "default": true,
+                                    "show_if": [
+                                        [
+                                            "tor_outgoing_enabled",
+                                            "=",
+                                            true
+                                        ],
+                                        [
+                                            "i2p_outgoing_enabled",
+                                            "=",
+                                            true
+                                        ]
+                                    ]
                                 }
                             },
                             {
@@ -1372,7 +1394,7 @@
         "readme": "<h1>Bitcoin Node</h1> <p>Run your personal node powered by <a href=\"https://bitcoincore.org/\">Bitcoin Core</a>.</p>",
         "changelog": null,
         "chart_metadata": {
-            "app_version": "31.0",
+            "app_version": "31.1",
             "capabilities": [],
             "categories": [
                 "financial"
@@ -1387,8 +1409,8 @@
                 "cryptocurrency",
                 "blockchain"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -1408,12 +1430,13 @@
             ],
             "screenshots": [],
             "sources": [
+                "https://apps.truenas.com/catalog/bitcoind_community/",
                 "https://bitcoin.org",
                 "https://github.com/sethforprivacy/docker-bitcoind"
             ],
             "title": "Bitcoin Node",
             "train": "community",
-            "version": "1.1.6"
+            "version": "1.1.16"
         }
     }
 }

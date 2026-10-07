@@ -1,4 +1,4 @@
-app_version: v0.8.5
+app_version: v0.8.7
 capabilities: []
 categories:
 - productivity
@@ -15,8 +15,8 @@ keywords:
 - ai
 - librechat
 - open-source
-lib_version: 2.3.3
-lib_version_hash: afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e
+lib_version: 2.3.9
+lib_version_hash: a8673072613a14c3b5468881b4912f7bb4c789ed663c142e2e9aa0a12d7ed101
 maintainers:
 - email: dev@truenas.com
   name: truenas
@@ -50,7 +50,8 @@ run_as_context:
   user_name: Host user is [apps]
 screenshots: []
 sources:
+- https://apps.truenas.com/catalog/librechat_community/
 - https://github.com/LibreChat/LibreChat
 title: LibreChat
 train: community
-version: 1.2.26
+version: 1.2.75

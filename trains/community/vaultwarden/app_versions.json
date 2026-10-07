@@ -1,18 +1,18 @@
 {
-    "1.6.11": {
+    "1.6.36": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/apps/apps/trains/community/vaultwarden/1.6.11",
-        "last_update": "2026-04-23 11:25:20",
+        "location": "/__w/apps/apps/trains/community/vaultwarden/1.6.36",
+        "last_update": "2026-10-06 15:39:27",
         "required_features": [],
-        "human_version": "1.35.7_1.6.11",
-        "version": "1.6.11",
+        "human_version": "1.37.4_1.6.36",
+        "version": "1.6.36",
         "app_metadata": {
             "annotations": {
                 "min_scale_version": "24.10.2.2"
             },
-            "app_version": "1.35.7",
+            "app_version": "1.37.4",
             "capabilities": [],
             "categories": [
                 "security"
@@ -27,8 +27,8 @@
                 "password",
                 "manager"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -57,11 +57,12 @@
                 "https://media.sys.truenas.net/apps/vaultwarden/screenshots/screenshot1.png"
             ],
             "sources": [
+                "https://apps.truenas.com/catalog/vaultwarden_community/",
                 "https://github.com/dani-garcia/vaultwarden"
             ],
             "title": "Vaultwarden",
             "train": "community",
-            "version": "1.6.11"
+            "version": "1.6.36"
         },
         "schema": {
             "groups": [
@@ -134,7 +135,6 @@
                             {
                                 "variable": "db_password",
                                 "label": "Database Password",
-                                "description": "The password for Vaultwarden.",
                                 "schema": {
                                     "type": "string",
                                     "default": "",
@@ -1180,7 +1180,7 @@
             "annotations": {
                 "min_scale_version": "24.10.2.2"
             },
-            "app_version": "1.35.7",
+            "app_version": "1.37.4",
             "capabilities": [],
             "categories": [
                 "security"
@@ -1195,8 +1195,8 @@
                 "password",
                 "manager"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -1225,11 +1225,12 @@
                 "https://media.sys.truenas.net/apps/vaultwarden/screenshots/screenshot1.png"
             ],
             "sources": [
+                "https://apps.truenas.com/catalog/vaultwarden_community/",
                 "https://github.com/dani-garcia/vaultwarden"
             ],
             "title": "Vaultwarden",
             "train": "community",
-            "version": "1.6.11"
+            "version": "1.6.36"
         }
     }
 }

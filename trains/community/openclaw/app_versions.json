@@ -1,15 +1,15 @@
 {
-    "1.0.21": {
+    "1.0.51": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/apps/apps/trains/community/openclaw/1.0.21",
-        "last_update": "2026-04-23 11:25:20",
+        "location": "/__w/apps/apps/trains/community/openclaw/1.0.51",
+        "last_update": "2026-10-03 17:54:27",
         "required_features": [],
-        "human_version": "2026.4.21_1.0.21",
-        "version": "1.0.21",
+        "human_version": "2026.9.8_1.0.51",
+        "version": "1.0.51",
         "app_metadata": {
-            "app_version": "2026.4.21",
+            "app_version": "2026.9.8",
             "capabilities": [],
             "categories": [
                 "ai"
@@ -25,8 +25,8 @@
                 "assistant",
                 "automation"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -46,11 +46,12 @@
             ],
             "screenshots": [],
             "sources": [
+                "https://apps.truenas.com/catalog/openclaw_community/",
                 "https://github.com/openclaw/openclaw"
             ],
             "title": "OpenClaw",
             "train": "community",
-            "version": "1.0.21"
+            "version": "1.0.51"
         },
         "schema": {
             "groups": [
@@ -298,7 +299,7 @@
                             {
                                 "variable": "user",
                                 "label": "User ID",
-                                "description": "The user id that Actual Budget files will be owned by.",
+                                "description": "The user id that OpenClaw files will be owned by.",
                                 "schema": {
                                     "type": "int",
                                     "min": 568,
@@ -309,7 +310,7 @@
                             {
                                 "variable": "group",
                                 "label": "Group ID",
-                                "description": "The group id that Actual Budget files will be owned by.",
+                                "description": "The group id that OpenClaw files will be owned by.",
                                 "schema": {
                                     "type": "int",
                                     "min": 568,
@@ -1086,7 +1087,7 @@
         "readme": "<h1>OpenClaw</h1> <p><a href=\"https://openclaw.ai\">OpenClaw</a> is a personal AI assistant you run on your own devices.</p>",
         "changelog": null,
         "chart_metadata": {
-            "app_version": "2026.4.21",
+            "app_version": "2026.9.8",
             "capabilities": [],
             "categories": [
                 "ai"
@@ -1102,8 +1103,8 @@
                 "assistant",
                 "automation"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -1123,11 +1124,12 @@
             ],
             "screenshots": [],
             "sources": [
+                "https://apps.truenas.com/catalog/openclaw_community/",
                 "https://github.com/openclaw/openclaw"
             ],
             "title": "OpenClaw",
             "train": "community",
-            "version": "1.0.21"
+            "version": "1.0.51"
         }
     }
 }

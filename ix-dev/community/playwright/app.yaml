@@ -1,4 +1,4 @@
-app_version: v1.59.1
+app_version: v1.63.0-noble
 capabilities: []
 categories:
 - development
@@ -12,8 +12,8 @@ keywords:
 - development
 - testing
 - automation
-lib_version: 2.3.3
-lib_version_hash: afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e
+lib_version: 2.3.4
+lib_version_hash: 2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242
 maintainers:
 - email: dev@truenas.com
   name: truenas
@@ -31,9 +31,10 @@ screenshots:
 - https://media.sys.truenas.net/apps/playwright/screenshots/screenshot3.png
 - https://media.sys.truenas.net/apps/playwright/screenshots/screenshot4.png
 sources:
-- https://playwright.dev/docs/test-ui-mode
-- https://playwright.dev/docs/docker
+- https://apps.truenas.com/catalog/playwright_community/
 - https://mcr.microsoft.com/en-us/artifact/mar/playwright
+- https://playwright.dev/docs/docker
+- https://playwright.dev/docs/test-ui-mode
 title: Playwright
 train: community
-version: 1.1.5
+version: 1.1.17

@@ -1,15 +1,15 @@
 {
-    "1.1.12": {
+    "1.1.28": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/apps/apps/trains/community/newt/1.1.12",
-        "last_update": "2026-04-23 11:25:20",
+        "location": "/__w/apps/apps/trains/community/newt/1.1.28",
+        "last_update": "2026-10-02 18:57:34",
         "required_features": [],
-        "human_version": "1.11.0_1.1.12",
-        "version": "1.1.12",
+        "human_version": "1.18.1_1.1.28",
+        "version": "1.1.28",
         "app_metadata": {
-            "app_version": "1.11.0",
+            "app_version": "1.18.1",
             "capabilities": [],
             "categories": [
                 "networking"
@@ -31,8 +31,8 @@
                 "wireguard",
                 "pangolin"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.13",
+            "lib_version_hash": "644cb2c53051941e9128fbd4d666094573af5c57a62c037bc56820d25427e454",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -52,11 +52,12 @@
             ],
             "screenshots": [],
             "sources": [
+                "https://apps.truenas.com/catalog/newt_community/",
                 "https://github.com/fosrl/newt"
             ],
             "title": "Newt",
             "train": "community",
-            "version": "1.1.12"
+            "version": "1.1.28"
         },
         "schema": {
             "groups": [
@@ -771,7 +772,7 @@
         "readme": "<h1>Newt</h1> <p><a href=\"https://github.com/fosrl/newt\">Newt</a> - Newt is a fully user space WireGuard tunnel client and TCP/UDP proxy, designed to securely expose private resources controlled by Pangolin. By using Newt, you don't need to manage complex WireGuard tunnels and NATing.</p>",
         "changelog": null,
         "chart_metadata": {
-            "app_version": "1.11.0",
+            "app_version": "1.18.1",
             "capabilities": [],
             "categories": [
                 "networking"
@@ -793,8 +794,8 @@
                 "wireguard",
                 "pangolin"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.13",
+            "lib_version_hash": "644cb2c53051941e9128fbd4d666094573af5c57a62c037bc56820d25427e454",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -814,11 +815,12 @@
             ],
             "screenshots": [],
             "sources": [
+                "https://apps.truenas.com/catalog/newt_community/",
                 "https://github.com/fosrl/newt"
             ],
             "title": "Newt",
             "train": "community",
-            "version": "1.1.12"
+            "version": "1.1.28"
         }
     }
 }

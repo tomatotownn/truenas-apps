@@ -1,10 +1,10 @@
 images:
   image:
-    repository: ghcr.io/getarcaneapp/arcane
-    tag: v1.18.0
+    repository: ghcr.io/getarcaneapp/manager
+    tag: "v2.15.0@sha256:aebb83a49e0e614dfc54ef8331af5826a89ed47e2e964db420a4e22756f166bc"
   container_utils_image:
     repository: ixsystems/container-utils
-    tag: 1.0.2
+    tag: "1.0.2@sha256:46eba20714c1cc6784f60e245c32c33a2d9f616e47d804694a9854248c89a992"
 
 consts:
   arcane_container_name: arcane

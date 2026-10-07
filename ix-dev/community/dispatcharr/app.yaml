@@ -1,4 +1,4 @@
-app_version: 0.23.0
+app_version: 0.31.0
 capabilities:
 - description: Celery, Dispatcharr are able to change file ownership arbitrarily
   name: CHOWN
@@ -24,8 +24,8 @@ keywords:
 - epg
 - vod
 - streaming
-lib_version: 2.3.3
-lib_version_hash: afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e
+lib_version: 2.3.4
+lib_version_hash: 2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242
 maintainers:
 - email: dev@truenas.com
   name: truenas
@@ -54,7 +54,8 @@ run_as_context:
   user_name: Host user is [apps]
 screenshots: []
 sources:
+- https://apps.truenas.com/catalog/dispatcharr_community/
 - https://github.com/Dispatcharr/Dispatcharr
 title: Dispatcharr
 train: community
-version: 1.2.19
+version: 1.2.56

@@ -1,15 +1,15 @@
 {
-    "2.0.2": {
+    "2.0.24": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/apps/apps/trains/community/forgejo-runner/2.0.2",
-        "last_update": "2026-04-23 11:25:20",
+        "location": "/__w/apps/apps/trains/community/forgejo-runner/2.0.24",
+        "last_update": "2026-09-29 13:08:51",
         "required_features": [],
-        "human_version": "12.9.0_2.0.2",
-        "version": "2.0.2",
+        "human_version": "13.2.0_2.0.24",
+        "version": "2.0.24",
         "app_metadata": {
-            "app_version": "12.9.0",
+            "app_version": "13.2.0",
             "capabilities": [],
             "categories": [
                 "productivity"
@@ -30,8 +30,8 @@
                 "actions",
                 "runner"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.13",
+            "lib_version_hash": "644cb2c53051941e9128fbd4d666094573af5c57a62c037bc56820d25427e454",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -51,12 +51,13 @@
             ],
             "screenshots": [],
             "sources": [
-                "https://forgejo.org/docs/latest/admin/actions/runner-installation/",
-                "https://code.forgejo.org/forgejo/runner"
+                "https://apps.truenas.com/catalog/forgejo-runner_community/",
+                "https://code.forgejo.org/forgejo/runner",
+                "https://forgejo.org/docs/latest/admin/actions/runner-installation/"
             ],
             "title": "Forgejo Runner",
             "train": "community",
-            "version": "2.0.2"
+            "version": "2.0.24"
         },
         "schema": {
             "groups": [
@@ -145,16 +146,26 @@
                                 "schema": {
                                     "type": "list",
                                     "default": [],
+                                    "min": 1,
                                     "items": [
                                         {
                                             "variable": "label",
-                                            "label": "Label",
+                                            "label": "Runner Label",
                                             "schema": {
                                                 "type": "string",
                                                 "required": true
                                             }
                                         }
                                     ]
+                                }
+                            },
+                            {
+                                "variable": "mount_docker_socket",
+                                "label": "Mount Docker Socket",
+                                "description": "Mount the Docker Socket into the container.",
+                                "schema": {
+                                    "type": "boolean",
+                                    "default": true
                                 }
                             },
                             {
@@ -1047,7 +1058,7 @@
         "readme": "<h1>Forgejo Runner</h1> <p><a href=\"https://forgejo.org/docs/latest/admin/actions/runner-installation/\">Forgejo Runner</a> is a runner for Forgejo.</p>",
         "changelog": null,
         "chart_metadata": {
-            "app_version": "12.9.0",
+            "app_version": "13.2.0",
             "capabilities": [],
             "categories": [
                 "productivity"
@@ -1068,8 +1079,8 @@
                 "actions",
                 "runner"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.13",
+            "lib_version_hash": "644cb2c53051941e9128fbd4d666094573af5c57a62c037bc56820d25427e454",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -1089,12 +1100,13 @@
             ],
             "screenshots": [],
             "sources": [
-                "https://forgejo.org/docs/latest/admin/actions/runner-installation/",
-                "https://code.forgejo.org/forgejo/runner"
+                "https://apps.truenas.com/catalog/forgejo-runner_community/",
+                "https://code.forgejo.org/forgejo/runner",
+                "https://forgejo.org/docs/latest/admin/actions/runner-installation/"
             ],
             "title": "Forgejo Runner",
             "train": "community",
-            "version": "2.0.2"
+            "version": "2.0.24"
         }
     }
 }

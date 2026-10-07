@@ -1,15 +1,15 @@
 {
-    "1.1.5": {
+    "1.1.9": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/apps/apps/trains/community/unmanic/1.1.5",
-        "last_update": "2026-04-23 11:25:20",
+        "location": "/__w/apps/apps/trains/community/unmanic/1.1.9",
+        "last_update": "2026-09-29 07:23:10",
         "required_features": [],
-        "human_version": "0.4.0_1.1.5",
-        "version": "1.1.5",
+        "human_version": "0.4.1_1.1.9",
+        "version": "1.1.9",
         "app_metadata": {
-            "app_version": "0.4.0",
+            "app_version": "0.4.1",
             "capabilities": [
                 {
                     "description": "Unmanic is able to change file ownership arbitrarily",
@@ -45,8 +45,8 @@
                 "optimize",
                 "media"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -70,11 +70,12 @@
                 "https://media.sys.truenas.net/apps/unmanic/screenshots/screenshot3.png"
             ],
             "sources": [
+                "https://apps.truenas.com/catalog/unmanic_community/",
                 "https://github.com/Unmanic/unmanic"
             ],
             "title": "Unmanic",
             "train": "community",
-            "version": "1.1.5"
+            "version": "1.1.9"
         },
         "schema": {
             "groups": [
@@ -1274,7 +1275,7 @@
         "readme": "<h1>Unmanic</h1> <p><a href=\"https://unmanic.app/\">Unmanic</a> is a library optimizer.</p>",
         "changelog": null,
         "chart_metadata": {
-            "app_version": "0.4.0",
+            "app_version": "0.4.1",
             "capabilities": [
                 {
                     "description": "Unmanic is able to change file ownership arbitrarily",
@@ -1310,8 +1311,8 @@
                 "optimize",
                 "media"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -1335,11 +1336,12 @@
                 "https://media.sys.truenas.net/apps/unmanic/screenshots/screenshot3.png"
             ],
             "sources": [
+                "https://apps.truenas.com/catalog/unmanic_community/",
                 "https://github.com/Unmanic/unmanic"
             ],
             "title": "Unmanic",
             "train": "community",
-            "version": "1.1.5"
+            "version": "1.1.9"
         }
     }
 }

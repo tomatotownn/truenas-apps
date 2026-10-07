@@ -1,13 +1,13 @@
 {
-    "1.2.4": {
+    "1.2.8": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/apps/apps/trains/community/eclipse-mosquitto/1.2.4",
-        "last_update": "2026-04-23 11:25:20",
+        "location": "/__w/apps/apps/trains/community/eclipse-mosquitto/1.2.8",
+        "last_update": "2026-09-29 07:23:10",
         "required_features": [],
-        "human_version": "2.0.22_1.2.4",
-        "version": "1.2.4",
+        "human_version": "2.0.22_1.2.8",
+        "version": "1.2.8",
         "app_metadata": {
             "annotations": {
                 "min_scale_version": "24.10.2.2"
@@ -27,8 +27,8 @@
                 "networking",
                 "mqtt"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -48,12 +48,13 @@
             ],
             "screenshots": [],
             "sources": [
+                "https://apps.truenas.com/catalog/eclipse-mosquitto_community/",
                 "https://github.com/eclipse-mosquitto/mosquitto",
                 "https://hub.docker.com/_/eclipse-mosquitto"
             ],
             "title": "Eclipse Mosquitto",
             "train": "community",
-            "version": "1.2.4"
+            "version": "1.2.8"
         },
         "schema": {
             "groups": [
@@ -1327,8 +1328,8 @@
                 "networking",
                 "mqtt"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -1348,12 +1349,13 @@
             ],
             "screenshots": [],
             "sources": [
+                "https://apps.truenas.com/catalog/eclipse-mosquitto_community/",
                 "https://github.com/eclipse-mosquitto/mosquitto",
                 "https://hub.docker.com/_/eclipse-mosquitto"
             ],
             "title": "Eclipse Mosquitto",
             "train": "community",
-            "version": "1.2.4"
+            "version": "1.2.8"
         }
     }
 }

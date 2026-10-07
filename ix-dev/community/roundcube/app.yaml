@@ -1,6 +1,6 @@
 annotations:
   min_scale_version: 24.10.2.2
-app_version: 1.6.15-apache
+app_version: 1.7.4-apache
 capabilities:
 - description: Roundcube is able to change file ownership arbitrarily
   name: CHOWN
@@ -24,8 +24,8 @@ icon: https://media.sys.truenas.net/apps/roundcube/icons/icon.png
 keywords:
 - webmail
 - email
-lib_version: 2.3.3
-lib_version_hash: afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e
+lib_version: 2.3.4
+lib_version_hash: 2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242
 maintainers:
 - email: dev@truenas.com
   name: truenas
@@ -49,8 +49,9 @@ screenshots:
 - https://media.sys.truenas.net/apps/roundcube/screenshots/screenshot4.png
 - https://media.sys.truenas.net/apps/roundcube/screenshots/screenshot5.png
 sources:
-- https://roundcube.net/
+- https://apps.truenas.com/catalog/roundcube_community/
 - https://hub.docker.com/r/roundcube/roundcubemail/
+- https://roundcube.net/
 title: Roundcube
 train: community
-version: 1.6.11
+version: 1.6.36

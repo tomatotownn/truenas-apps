@@ -1,18 +1,18 @@
 {
-    "1.14.15": {
+    "1.14.45": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/apps/apps/trains/community/immich/1.14.15",
-        "last_update": "2026-04-23 11:25:20",
+        "location": "/__w/apps/apps/trains/community/immich/1.14.45",
+        "last_update": "2026-10-06 15:39:27",
         "required_features": [],
-        "human_version": "v2.7.5_1.14.15",
-        "version": "1.14.15",
+        "human_version": "v3.2.4_1.14.45",
+        "version": "1.14.45",
         "app_metadata": {
             "annotations": {
                 "min_scale_version": "24.10.2.2"
             },
-            "app_version": "v2.7.5",
+            "app_version": "v3.2.4",
             "capabilities": [],
             "categories": [
                 "media"
@@ -27,8 +27,8 @@
                 "photos",
                 "backup"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -69,12 +69,13 @@
             ],
             "screenshots": [],
             "sources": [
-                "https://immich.app",
-                "https://github.com/immich-app/immich"
+                "https://apps.truenas.com/catalog/immich_community/",
+                "https://github.com/immich-app/immich",
+                "https://immich.app"
             ],
             "title": "Immich",
             "train": "community",
-            "version": "1.14.15"
+            "version": "1.14.45"
         },
         "schema": {
             "groups": [
@@ -162,7 +163,6 @@
                             {
                                 "variable": "db_password",
                                 "label": "Database Password",
-                                "description": "The password to use for the database.\n",
                                 "schema": {
                                     "type": "string",
                                     "default": "",
@@ -173,7 +173,6 @@
                             {
                                 "variable": "redis_password",
                                 "label": "Redis Password",
-                                "description": "The password to use for the redis.\n",
                                 "schema": {
                                     "type": "string",
                                     "default": "",
@@ -1577,7 +1576,7 @@
             "annotations": {
                 "min_scale_version": "24.10.2.2"
             },
-            "app_version": "v2.7.5",
+            "app_version": "v3.2.4",
             "capabilities": [],
             "categories": [
                 "media"
@@ -1592,8 +1591,8 @@
                 "photos",
                 "backup"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -1634,12 +1633,13 @@
             ],
             "screenshots": [],
             "sources": [
-                "https://immich.app",
-                "https://github.com/immich-app/immich"
+                "https://apps.truenas.com/catalog/immich_community/",
+                "https://github.com/immich-app/immich",
+                "https://immich.app"
             ],
             "title": "Immich",
             "train": "community",
-            "version": "1.14.15"
+            "version": "1.14.45"
         }
     }
 }

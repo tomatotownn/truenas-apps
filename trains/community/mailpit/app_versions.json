@@ -1,15 +1,15 @@
 {
-    "1.1.10": {
+    "1.1.25": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/apps/apps/trains/community/mailpit/1.1.10",
-        "last_update": "2026-04-23 11:25:20",
+        "location": "/__w/apps/apps/trains/community/mailpit/1.1.25",
+        "last_update": "2026-10-03 17:54:27",
         "required_features": [],
-        "human_version": "v1.29.7_1.1.10",
-        "version": "1.1.10",
+        "human_version": "v1.31.4_1.1.25",
+        "version": "1.1.25",
         "app_metadata": {
-            "app_version": "v1.29.7",
+            "app_version": "v1.31.4",
             "capabilities": [],
             "categories": [
                 "productivity"
@@ -24,8 +24,8 @@
                 "email",
                 "smtp"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -45,11 +45,12 @@
             ],
             "screenshots": [],
             "sources": [
+                "https://apps.truenas.com/catalog/mailpit_community/",
                 "https://github.com/axllent/mailpit"
             ],
             "title": "Mailpit",
             "train": "community",
-            "version": "1.1.10"
+            "version": "1.1.25"
         },
         "schema": {
             "groups": [
@@ -1070,7 +1071,7 @@
         "readme": "<h1>Mailpit</h1> <p><a href=\"https://mailpit.axllent.com\">Mailpit</a> - An email and SMTP testing tool with API for developers</p>",
         "changelog": null,
         "chart_metadata": {
-            "app_version": "v1.29.7",
+            "app_version": "v1.31.4",
             "capabilities": [],
             "categories": [
                 "productivity"
@@ -1085,8 +1086,8 @@
                 "email",
                 "smtp"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -1106,11 +1107,12 @@
             ],
             "screenshots": [],
             "sources": [
+                "https://apps.truenas.com/catalog/mailpit_community/",
                 "https://github.com/axllent/mailpit"
             ],
             "title": "Mailpit",
             "train": "community",
-            "version": "1.1.10"
+            "version": "1.1.25"
         }
     }
 }

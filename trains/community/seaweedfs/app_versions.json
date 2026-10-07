@@ -1,15 +1,15 @@
 {
-    "1.1.12": {
+    "1.1.40": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/apps/apps/trains/community/seaweedfs/1.1.12",
-        "last_update": "2026-04-23 11:25:20",
+        "location": "/__w/apps/apps/trains/community/seaweedfs/1.1.40",
+        "last_update": "2026-09-29 07:23:10",
         "required_features": [],
-        "human_version": "4.21_1.1.12",
-        "version": "1.1.12",
+        "human_version": "4.48_1.1.40",
+        "version": "1.1.40",
         "app_metadata": {
-            "app_version": "4.21",
+            "app_version": "4.48",
             "capabilities": [],
             "categories": [
                 "storage"
@@ -27,8 +27,8 @@
                 "object",
                 "bucket"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -48,12 +48,13 @@
             ],
             "screenshots": [],
             "sources": [
+                "https://apps.truenas.com/catalog/seaweedfs_community/",
                 "https://github.com/seaweedfs/seaweedfs",
                 "https://hub.docker.com/r/chrislusf/seaweedfs"
             ],
             "title": "SeaweedFS",
             "train": "community",
-            "version": "1.1.12"
+            "version": "1.1.40"
         },
         "schema": {
             "groups": [
@@ -1541,7 +1542,7 @@
         "readme": "<h1>SeaweedFS</h1> <p><a href=\"https://seaweedfs.com/\">SeaweedFS</a> is a fast distributed storage system for blobs, objects, files, and data lake, for billions of files!</p>",
         "changelog": null,
         "chart_metadata": {
-            "app_version": "4.21",
+            "app_version": "4.48",
             "capabilities": [],
             "categories": [
                 "storage"
@@ -1559,8 +1560,8 @@
                 "object",
                 "bucket"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -1580,12 +1581,13 @@
             ],
             "screenshots": [],
             "sources": [
+                "https://apps.truenas.com/catalog/seaweedfs_community/",
                 "https://github.com/seaweedfs/seaweedfs",
                 "https://hub.docker.com/r/chrislusf/seaweedfs"
             ],
             "title": "SeaweedFS",
             "train": "community",
-            "version": "1.1.12"
+            "version": "1.1.40"
         }
     }
 }

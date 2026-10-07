@@ -1,4 +1,4 @@
-app_version: 1.4.27
+app_version: 2.6.3
 capabilities: []
 categories:
 - media
@@ -17,8 +17,8 @@ keywords:
 - account sharing
 - session
 - geolocation
-lib_version: 2.3.3
-lib_version_hash: afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e
+lib_version: 2.3.4
+lib_version_hash: 2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242
 maintainers:
 - email: dev@truenas.com
   name: truenas
@@ -45,7 +45,8 @@ screenshots:
 - https://media.sys.truenas.net/apps/tracearr/screenshots/screenshot2.png
 - https://media.sys.truenas.net/apps/tracearr/screenshots/screenshot3.png
 sources:
+- https://apps.truenas.com/catalog/tracearr_community/
 - https://github.com/connorgallopo/tracearr
 title: Tracearr
 train: community
-version: 1.2.20
+version: 1.2.69

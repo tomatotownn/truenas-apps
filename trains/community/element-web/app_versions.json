@@ -1,15 +1,15 @@
 {
-    "1.1.9": {
+    "1.1.27": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/apps/apps/trains/community/element-web/1.1.9",
-        "last_update": "2026-04-23 11:25:20",
+        "location": "/__w/apps/apps/trains/community/element-web/1.1.27",
+        "last_update": "2026-09-29 15:17:46",
         "required_features": [],
-        "human_version": "v1.12.15_1.1.9",
-        "version": "1.1.9",
+        "human_version": "v1.12.30_1.1.27",
+        "version": "1.1.27",
         "app_metadata": {
-            "app_version": "v1.12.15",
+            "app_version": "v1.12.30",
             "capabilities": [],
             "categories": [
                 "productivity"
@@ -24,8 +24,8 @@
                 "chat",
                 "element"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -45,11 +45,12 @@
             ],
             "screenshots": [],
             "sources": [
+                "https://apps.truenas.com/catalog/element-web_community/",
                 "https://github.com/element-hq/element-web"
             ],
             "title": "Element Web",
             "train": "community",
-            "version": "1.1.9"
+            "version": "1.1.27"
         },
         "schema": {
             "groups": [
@@ -798,7 +799,7 @@
         "readme": "<h1>Element-Web</h1> <p><a href=\"https://element.io/\">Element-Web</a> is a glossy Matrix collaboration client for the web.</p>",
         "changelog": null,
         "chart_metadata": {
-            "app_version": "v1.12.15",
+            "app_version": "v1.12.30",
             "capabilities": [],
             "categories": [
                 "productivity"
@@ -813,8 +814,8 @@
                 "chat",
                 "element"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -834,11 +835,12 @@
             ],
             "screenshots": [],
             "sources": [
+                "https://apps.truenas.com/catalog/element-web_community/",
                 "https://github.com/element-hq/element-web"
             ],
             "title": "Element Web",
             "train": "community",
-            "version": "1.1.9"
+            "version": "1.1.27"
         }
     }
 }

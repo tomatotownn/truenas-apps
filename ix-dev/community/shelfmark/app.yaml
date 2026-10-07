@@ -1,4 +1,4 @@
-app_version: v1.2.1
+app_version: v1.4.0
 capabilities:
 - description: Shelfmark is able to change file ownership arbitrarily
   name: CHOWN
@@ -22,8 +22,8 @@ icon: https://media.sys.truenas.net/apps/shelfmark/icons/icon.png
 keywords:
 - media
 - ebooks
-lib_version: 2.3.3
-lib_version_hash: afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e
+lib_version: 2.3.4
+lib_version_hash: 2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242
 maintainers:
 - email: dev@truenas.com
   name: truenas
@@ -37,7 +37,8 @@ run_as_context:
   user_name: Host user is [root]
 screenshots: []
 sources:
+- https://apps.truenas.com/catalog/shelfmark_community/
 - https://github.com/calibrain/shelfmark
 title: Shelfmark
 train: community
-version: 1.0.4
+version: 1.0.25

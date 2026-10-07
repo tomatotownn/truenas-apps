@@ -1,15 +1,15 @@
 {
-    "1.2.26": {
+    "1.2.75": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/apps/apps/trains/community/librechat/1.2.26",
-        "last_update": "2026-04-23 13:02:35",
+        "location": "/__w/apps/apps/trains/community/librechat/1.2.75",
+        "last_update": "2026-10-06 15:39:27",
         "required_features": [],
-        "human_version": "v0.8.5_1.2.26",
-        "version": "1.2.26",
+        "human_version": "v0.8.7_1.2.75",
+        "version": "1.2.75",
         "app_metadata": {
-            "app_version": "v0.8.5",
+            "app_version": "v0.8.7",
             "capabilities": [],
             "categories": [
                 "productivity"
@@ -26,8 +26,8 @@
                 "librechat",
                 "open-source"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.9",
+            "lib_version_hash": "a8673072613a14c3b5468881b4912f7bb4c789ed663c142e2e9aa0a12d7ed101",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -75,11 +75,12 @@
             ],
             "screenshots": [],
             "sources": [
+                "https://apps.truenas.com/catalog/librechat_community/",
                 "https://github.com/LibreChat/LibreChat"
             ],
             "title": "LibreChat",
             "train": "community",
-            "version": "1.2.26"
+            "version": "1.2.75"
         },
         "schema": {
             "groups": [
@@ -1822,7 +1823,7 @@
         "readme": "<h1>LibreChat</h1> <p><a href=\"https://www.librechat.ai/\">LibreChat</a> is the ultimate open-source app for all your AI conversations, fully customizable and compatible with any AI provider \u2014 all in one sleek interface.</p>",
         "changelog": null,
         "chart_metadata": {
-            "app_version": "v0.8.5",
+            "app_version": "v0.8.7",
             "capabilities": [],
             "categories": [
                 "productivity"
@@ -1839,8 +1840,8 @@
                 "librechat",
                 "open-source"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.9",
+            "lib_version_hash": "a8673072613a14c3b5468881b4912f7bb4c789ed663c142e2e9aa0a12d7ed101",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -1888,11 +1889,12 @@
             ],
             "screenshots": [],
             "sources": [
+                "https://apps.truenas.com/catalog/librechat_community/",
                 "https://github.com/LibreChat/LibreChat"
             ],
             "title": "LibreChat",
             "train": "community",
-            "version": "1.2.26"
+            "version": "1.2.75"
         }
     }
 }

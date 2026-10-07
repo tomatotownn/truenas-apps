@@ -1,15 +1,15 @@
 {
-    "1.1.25": {
+    "1.1.94": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/apps/apps/trains/community/lazylibrarian/1.1.25",
-        "last_update": "2026-04-23 11:25:20",
+        "location": "/__w/apps/apps/trains/community/lazylibrarian/1.1.94",
+        "last_update": "2026-10-06 15:39:27",
         "required_features": [],
-        "human_version": "652b2d0d-ls275_1.1.25",
-        "version": "1.1.25",
+        "human_version": "daa2d323-ls365_1.1.94",
+        "version": "1.1.94",
         "app_metadata": {
-            "app_version": "652b2d0d-ls275",
+            "app_version": "daa2d323-ls365",
             "capabilities": [
                 {
                     "description": "LazyLibrarian is able to change file ownership arbitrarily",
@@ -45,8 +45,8 @@
                 "media",
                 "ebooks"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -65,12 +65,13 @@
                 }
             ],
             "sources": [
+                "https://apps.truenas.com/catalog/lazylibrarian_community/",
                 "https://github.com/linuxserver/docker-lazylibrarian",
                 "https://gitlab.com/LazyLibrarian/LazyLibrarian"
             ],
             "title": "LazyLibrarian",
             "train": "community",
-            "version": "1.1.25"
+            "version": "1.1.94"
         },
         "schema": {
             "groups": [
@@ -1265,7 +1266,7 @@
         "readme": "<h1>LazyLibrarian</h1> <p><a href=\"https://gitlab.com/LazyLibrarian/LazyLibrarian\">LazyLibrarian</a> is a program to follow authors and grab metadata for all your digital reading needs.</p>",
         "changelog": null,
         "chart_metadata": {
-            "app_version": "652b2d0d-ls275",
+            "app_version": "daa2d323-ls365",
             "capabilities": [
                 {
                     "description": "LazyLibrarian is able to change file ownership arbitrarily",
@@ -1301,8 +1302,8 @@
                 "media",
                 "ebooks"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -1321,12 +1322,13 @@
                 }
             ],
             "sources": [
+                "https://apps.truenas.com/catalog/lazylibrarian_community/",
                 "https://github.com/linuxserver/docker-lazylibrarian",
                 "https://gitlab.com/LazyLibrarian/LazyLibrarian"
             ],
             "title": "LazyLibrarian",
             "train": "community",
-            "version": "1.1.25"
+            "version": "1.1.94"
         }
     }
 }

@@ -1,15 +1,15 @@
 {
-    "1.1.9": {
+    "1.1.46": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/apps/apps/trains/community/kerberos-agent/1.1.9",
-        "last_update": "2026-04-23 11:25:20",
+        "location": "/__w/apps/apps/trains/community/kerberos-agent/1.1.46",
+        "last_update": "2026-10-02 13:52:49",
         "required_features": [],
-        "human_version": "v3.6.19_1.1.9",
-        "version": "1.1.9",
+        "human_version": "v3.12.7_1.1.46",
+        "version": "1.1.46",
         "app_metadata": {
-            "app_version": "v3.6.19",
+            "app_version": "v3.12.7",
             "capabilities": [
                 {
                     "description": "Kerberos Agent is able to bind to privileged ports (< 1024)",
@@ -30,8 +30,8 @@
                 "security",
                 "video"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -54,11 +54,12 @@
                 "https://media.sys.truenas.net/apps/kerberos-agent/screenshots/screenshot2.png"
             ],
             "sources": [
+                "https://apps.truenas.com/catalog/kerberos-agent_community/",
                 "https://github.com/kerberos-io/agent"
             ],
             "title": "Kerberos.io Agent",
             "train": "community",
-            "version": "1.1.9"
+            "version": "1.1.46"
         },
         "schema": {
             "groups": [
@@ -1106,7 +1107,7 @@
         "readme": "<h1>Kerberos.io Agent</h1> <p><a href=\"https://kerberos.io/\">Kerberos.io</a> is an open and scalable video surveillance system for anyone making this world a better and more peaceful place.</p>",
         "changelog": null,
         "chart_metadata": {
-            "app_version": "v3.6.19",
+            "app_version": "v3.12.7",
             "capabilities": [
                 {
                     "description": "Kerberos Agent is able to bind to privileged ports (< 1024)",
@@ -1127,8 +1128,8 @@
                 "security",
                 "video"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.4",
+            "lib_version_hash": "2e3a8847308fb2eb0da046018f287c73822c094b5950a10377c3235794ff1242",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -1151,11 +1152,12 @@
                 "https://media.sys.truenas.net/apps/kerberos-agent/screenshots/screenshot2.png"
             ],
             "sources": [
+                "https://apps.truenas.com/catalog/kerberos-agent_community/",
                 "https://github.com/kerberos-io/agent"
             ],
             "title": "Kerberos.io Agent",
             "train": "community",
-            "version": "1.1.9"
+            "version": "1.1.46"
         }
     }
 }

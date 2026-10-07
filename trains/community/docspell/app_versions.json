@@ -1,13 +1,13 @@
 {
-    "1.2.12": {
+    "1.2.33": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/__w/apps/apps/trains/community/docspell/1.2.12",
-        "last_update": "2026-04-23 11:25:20",
+        "location": "/__w/apps/apps/trains/community/docspell/1.2.33",
+        "last_update": "2026-10-06 15:39:27",
         "required_features": [],
-        "human_version": "v0.43.0_1.2.12",
-        "version": "1.2.12",
+        "human_version": "v0.43.0_1.2.33",
+        "version": "1.2.33",
         "app_metadata": {
             "app_version": "v0.43.0",
             "capabilities": [],
@@ -18,15 +18,20 @@
             "date_added": "2025-09-24",
             "description": "Docspell assists in organizing your piles of digital documents, resulting from scanners, e-mails and other sources with minimal effort.",
             "home": "https://docspell.org/",
-            "host_mounts": [],
+            "host_mounts": [
+                {
+                    "description": "Docker socket",
+                    "host_path": "/var/run/docker.sock"
+                }
+            ],
             "icon": "https://media.sys.truenas.net/apps/docspell/icons/icon.svg",
             "keywords": [
                 "document",
                 "organization",
                 "storage"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.13",
+            "lib_version_hash": "644cb2c53051941e9128fbd4d666094573af5c57a62c037bc56820d25427e454",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -67,12 +72,13 @@
             ],
             "screenshots": [],
             "sources": [
-                "https://github.com/eikek/docspell",
-                "https://github.com/docspell/docker"
+                "https://apps.truenas.com/catalog/docspell_community/",
+                "https://github.com/docspell/docker",
+                "https://github.com/eikek/docspell"
             ],
             "title": "Docspell",
             "train": "community",
-            "version": "1.2.12"
+            "version": "1.2.33"
         },
         "schema": {
             "groups": [
@@ -145,7 +151,6 @@
                             {
                                 "variable": "db_password",
                                 "label": "Database Password",
-                                "description": "The password for Docspell.",
                                 "schema": {
                                     "type": "string",
                                     "default": "",
@@ -1191,15 +1196,20 @@
             "date_added": "2025-09-24",
             "description": "Docspell assists in organizing your piles of digital documents, resulting from scanners, e-mails and other sources with minimal effort.",
             "home": "https://docspell.org/",
-            "host_mounts": [],
+            "host_mounts": [
+                {
+                    "description": "Docker socket",
+                    "host_path": "/var/run/docker.sock"
+                }
+            ],
             "icon": "https://media.sys.truenas.net/apps/docspell/icons/icon.svg",
             "keywords": [
                 "document",
                 "organization",
                 "storage"
             ],
-            "lib_version": "2.3.3",
-            "lib_version_hash": "afa5d7d30a811afe017626efff68d8c2937ac050d53a6857076dcb52098f313e",
+            "lib_version": "2.3.13",
+            "lib_version_hash": "644cb2c53051941e9128fbd4d666094573af5c57a62c037bc56820d25427e454",
             "maintainers": [
                 {
                     "email": "dev@truenas.com",
@@ -1240,12 +1250,13 @@
             ],
             "screenshots": [],
             "sources": [
-                "https://github.com/eikek/docspell",
-                "https://github.com/docspell/docker"
+                "https://apps.truenas.com/catalog/docspell_community/",
+                "https://github.com/docspell/docker",
+                "https://github.com/eikek/docspell"
             ],
             "title": "Docspell",
             "train": "community",
-            "version": "1.2.12"
+            "version": "1.2.33"
         }
     }
 }
