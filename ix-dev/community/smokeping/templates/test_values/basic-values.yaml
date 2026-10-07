@@ -1,0 +1,21 @@
+TZ: Etc/UTC
+
+smokeping:
+  timezone: Etc/UTC
+  additional_envs: []
+
+network:
+  web_port:
+    bind_mode: published
+    port_number: 31051
+  host_network: false
+
+ix_volumes:
+  data: /opt/tests/mnt/smokeping/data
+
+storage:
+  data:
+    type: ix_volume
+    ix_volume_config:
+      dataset_name: data
+      create_host_path: true

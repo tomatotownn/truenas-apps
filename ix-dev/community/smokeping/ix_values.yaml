@@ -5,3 +5,5 @@ images:
 
 consts:
   smokeping_container_name: smokeping
+  run_as_user: 568
+  run_as_group: 568

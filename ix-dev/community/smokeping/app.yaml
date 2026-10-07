@@ -3,8 +3,8 @@ capabilities: []
 categories:
 - monitoring
 changelog_url: https://github.com/linuxserver/docker-smokeping/releases
-date_added: 'todo...'
-description: Smokeping is a latency logging and graphing and alerting system.
+date_added: '2026-04-24'
+description: Smokeping is a lightweight latency monitoring and graphing tool for tracking network performance.
 home: https://docs.linuxserver.io/images/docker-smokeping/
 host_mounts: []
 icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/smokeping.webp
@@ -31,4 +31,4 @@ sources:
 - https://github.com/linuxserver/docker-smokeping
 title: Smokeping
 train: community
-version: 1.0.0
+version: 1.0.1
